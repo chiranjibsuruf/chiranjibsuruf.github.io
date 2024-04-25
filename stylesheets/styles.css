@@ -288,3 +288,23 @@ footer {
     text-decoration:none;
     color:black;
  }
+
+ .img-fluid {
+  max-width: 30%;
+  height: auto;
+}
+
+
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 2px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
